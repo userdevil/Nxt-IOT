@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1066476746133",
+    "firebase_url": "https://esp-32-home-5e0e1-default-rtdb.firebaseio.com",
+    "project_id": "esp-32-home-5e0e1",
+    "storage_bucket": "esp-32-home-5e0e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066476746133:android:1888e23452166f7743b29c",
+        "android_client_info": {
+          "package_name": "com.msdev.arduinotemp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066476746133-rfojelhrfov0894jdvc6j4rneg2tp2di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wPBG_mkhMqtKYCKEnFlqjo-QvEPndjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066476746133-rfojelhrfov0894jdvc6j4rneg2tp2di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066476746133:android:379ce2c1e97fa54d43b29c",
+        "android_client_info": {
+          "package_name": "com.msdev.myhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066476746133-rfojelhrfov0894jdvc6j4rneg2tp2di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wPBG_mkhMqtKYCKEnFlqjo-QvEPndjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066476746133-rfojelhrfov0894jdvc6j4rneg2tp2di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:text="Introduction:"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:paddingStart="2dp"
+                android:text="@string/intro"
+                android:textStyle="normal"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="25dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Installation:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:paddingStart="40dp"
+                android:text="@string/ins"/>
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:clickable="true"
+                android:textColor="@color/purple_700"
+                android:linksClickable="true"
+                android:paddingStart="100dp"
+                android:text="click Here to Download"
+                android:focusable="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Initialization:" />
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                tools:ignore="WebViewLayout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingTop="25dp"
+                android:textStyle="bold"
+                android:text="Examples"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingStart="40dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="For LED:" />
+            <WebView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="80dp"
+                tools:ignore="WebViewLayout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingStart="40dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="For LED Blinking:" />
+            <WebView
+                android:id="@+id/webV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="80dp"
+                tools:ignore="WebViewLayout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingStart="40dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="For DHT11:" />
+            <WebView
+                android:id="@+id/webVi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="80dp"
+                tools:ignore="WebViewLayout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingStart="40dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="For BME280:" />
+            <WebView
+                android:id="@+id/webv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="90dp"
+                tools:ignore="WebViewLayout" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
